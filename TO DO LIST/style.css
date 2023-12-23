@@ -1,0 +1,68 @@
+body {
+    background-color: #ed7d31;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .box {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .to-dos {
+    position: relative;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+  .Header {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: #ccc;
+  }
+
+  p {
+    font-size: 25px;
+    background-color: #f6f1ee;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  #inputField {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 700px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .container {
+    background-color: #6c5f5b;
+    max-width: 400px;
+    height: 900px;
+    padding: 10px;
+    border-radius: 40px;
+    margin: auto;
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
